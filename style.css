@@ -57,3 +57,36 @@ inline {
 
 
 }
+inline_flex {
+    display: inline-flex;
+    gap: 30px;
+    padding: 15px;
+    border: 2px solid white;
+    font-size: 30px;
+    background-color: rgb(210, 133, 255);
+
+}
+
+.inline flex {
+    display: inline-flex;
+    gap: 30px;
+    padding: 15px;
+    border: 2px solid white;
+    font-size: 30px;
+    background-color: rgb(210, 133, 255);
+
+
+}
+
+
+.quadradinho {
+    display: block;
+    width: 20px;
+    padding: 15px;
+    border: 2px solid white;
+    font-size: 30px;
+    background-color: rgb(210, 133, 255);
+    font-size: 50;
+}
+
+
