@@ -1,0 +1,41 @@
+ body{
+    background-color: rgb(236, 187, 221);
+    color: rgb(241, 165, 229);
+    margin: 0;
+}
+
+
+#navbar {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgba(224, 123, 182, 0.829);
+    text-align: center;
+    color: rgb(253, 158, 225);
+
+ 
+}
+ .display-block{
+    background-color: rgb(211, 80, 161);
+    height: 30px;
+    text-align: center;
+
+ }
+ .primeira{
+ background-color: rgb(211, 80, 161);
+    height: 30px;
+    text-align: center;
+
+ }
+.segunda{
+  background-color: rgb(211, 80, 161);
+   height: 30px;
+   text-align: center;
+}
+
+.terceira{
+     background-color: rgb(211, 80, 161);
+     height: 30px;
+     text-align: center;
+}
+
