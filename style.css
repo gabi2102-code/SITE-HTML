@@ -51,3 +51,9 @@ inline {
     border: 2px solid white;
     display: inline;
 }
+
+.inline-block {
+    display: inline-block;
+
+
+}
