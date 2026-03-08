@@ -34,8 +34,20 @@
 }
 
 .terceira{
-     background-color: rgb(211, 80, 161);
+     background-color: rgb(223, 142, 192);
      height: 30px;
      text-align: center;
 }
+inline {
+    font-size: 20px;
+    display: inline;
 
+
+}
+.teste {
+    background-color: rgb(212, 130, 181);
+    font-size: 30px;
+    padding: 15px;
+    border: 2px solid white;
+    display: inline;
+}
