@@ -1,90 +1,254 @@
- body{
-    background-color: rgb(236, 187, 221);
-    color: rgb(241, 165, 229);
+body{
+    background-color: rgb(249, 184, 231);
+    color: rgb(181, 56, 158);
     margin: 0;
+   font-weight: 100;
+}
+
+section{
+    margin-bottom: 40px;
 }
 
 
-#navbar {
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color: rgba(224, 123, 182, 0.829);
-    text-align: center;
-    color: rgb(253, 158, 225);
-
- 
-}
- .display-block{
-    background-color: rgb(211, 80, 161);
-    height: 30px;
-    text-align: center;
-
- }
- .primeira{
- background-color: rgb(211, 80, 161);
-    height: 30px;
-    text-align: center;
-
- }
-.segunda{
-  background-color: rgb(211, 80, 161);
-   height: 30px;
-   text-align: center;
-}
-
-.terceira{
-     background-color: rgb(223, 142, 192);
-     height: 30px;
-     text-align: center;
-}
-inline {
-    font-size: 20px;
-    display: inline;
-
-
-}
-.teste {
-    background-color: rgb(212, 130, 181);
-    font-size: 30px;
-    padding: 15px;
-    border: 2px solid white;
-    display: inline;
-}
-
-.inline-block {
-    display: inline-block;
-
-
-}
-inline_flex {
-    display: inline-flex;
-    gap: 30px;
-    padding: 15px;
-    border: 2px solid white;
-    font-size: 30px;
-    background-color: rgb(210, 133, 255);
-
-}
-
-.inline flex {
-    display: inline-flex;
-    gap: 30px;
-    padding: 15px;
-    border: 2px solid white;
-    font-size: 30px;
-    background-color: rgb(210, 133, 255);
-
-
-}
-
-
-.quadradinho {
+.block-container div{
     display: block;
-    width: 20px;
+    background-color: rgb(181, 56, 158);
+    color: white;
     padding: 15px;
+    margin: 5px 0;
     border: 2px solid white;
-    font-size: 30px;
-    background-color: rgb(210, 133, 255);
-    font-size: 50;
+    position: relative;
+}
+
+
+.inline-container span{
+    display: inline;
+    background-color:  rgb(181, 56, 158);
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.inline-block-container div{
+    display: inline-block;
+    background-color:  rgb(181, 56, 158);
+    padding: 20px;
+    margin: 5px;
+    color: aliceblue;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.flex-container{
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    position: relative;
+    
+}
+
+.bloco-flex{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+.inline-flex-container{
+    display: inline-flex;
+    gap: 10px;
+    background-color:  rgb(181, 56, 158);
+    color: aliceblue;
+    border: 2px solid white;
+    position: relative;
+}
+
+.bloco-inline-flex{
+    background-color:  rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+    border: 2px solid white;
+    position: relative;
+    
+}
+
+.bloco-grid{
+    background-color:  rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.inline-grid-container{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+    position: relative;
+}
+
+.bloco-inline-grid{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.flow-root-container{
+    display: flow-root;
+    position: relative;
+}
+
+.bloco-flow{
+    float: left;
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+
+  margin-right: 10px;}
+  body{
+
+    font-family: helvetica;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+
+.table-container{
+    display: table;
+    position: relative;
+}
+
+.table-container div{
+    display: table-cell;
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.block-flow div{
+    display: block;
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+    border: 2px solid white;
+    position: relative;
+}
+
+.block-flex{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.block-flex div{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.block-grid{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    gap: 10px;
+    position: relative;
+}
+
+.block-grid div{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.block-flow-root{
+    display: flow-root;
+    
+}
+
+.block-flow-root div{
+    float: left;
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    margin-right: 10px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.inline-flow span{
+    display: inline;
+    background-color: rgb(181, 56, 158);
+    padding: 10px;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.inline-flex{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.inline-flex div{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.inline-grid{
+    display: inline-grid;
+    grid-template-columns: repeat(2,100px);
+    gap: 10px;
+    position: relative;
+}
+
+.inline-grid div{
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.inline-flow-root{
+    display: inline-block;
+}
+
+.inline-flow-root div{
+    float: left;
+    background-color: rgb(181, 56, 158);
+    color: white;
+    padding: 25px;
+    margin-right: 10px;
+    border: 2px solid white;
+    position: relative;
 }
